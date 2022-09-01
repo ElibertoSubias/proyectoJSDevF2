@@ -34,7 +34,7 @@ let renderLibros = () => {
         div.classList.add("col-sm-12", "col-md-4", "carditems", "m-0", "p-0");
         div.innerHTML = `
         <div class="card m-2 p-5">
-            <img src="/assets/icono-libro.png" class="card-img-top" alt="...">
+            <img src="assets/icono-libro.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${element.name}</h5>
                 <a href="#" class="btn btn-primary btnvermas" id="${element._id}" data-libro="${element.name}" data-bs-toggle="modal" data-bs-target="#modalDetalleLibro">Ver más</a>
@@ -114,7 +114,7 @@ let renderPeliculas = () => {
         div.classList.add("col-sm-12", "col-md-4", "carditems", "m-0", "p-0");
         div.innerHTML = `
         <div class="card m-2 p-5">
-            <img src="/assets/icono-pelicula.png" class="card-img-top" alt="...">
+            <img src="assets/icono-pelicula.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${element.name}</h5>
                 <p class="centrarContenido">
@@ -180,7 +180,7 @@ let renderPersonajes = (personajes) => {
         div.classList.add("col-sm-12", "col-md-4", "m-0", "p-0");
         div.innerHTML = `
         <div class="card m-2 p-5">
-            <img src="/assets/personaje.svg" class="card-img-top" alt="...">
+            <img src="assets/personaje.svg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${element.name}</h5>
                 <p>Genero: ${element.gender}</p>
