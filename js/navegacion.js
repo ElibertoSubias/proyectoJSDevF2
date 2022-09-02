@@ -66,6 +66,7 @@ btnOrdenarPorGenero.addEventListener("click", (e) => {
 document.querySelector("#libros").addEventListener("click", (e) => {
     document.querySelector("#cargando").classList.remove("d-none");
     obtenerLibros();
+
     ocultarMenuInicio();
     divContenedorLibros.classList.remove("d-none");
     document.querySelector("#btnOrdenarPorNombre").dataset.seleccionado = "libros";
@@ -73,6 +74,7 @@ document.querySelector("#libros").addEventListener("click", (e) => {
 document.querySelector("#peliculaslor").addEventListener("click", (e) => {
     document.querySelector("#cargando").classList.remove("d-none");
     obtenerPeliculas();
+
     ocultarMenuInicio();
     divContenedorPeliculas.classList.remove("d-none");
     document.querySelector("#btnOrdenarPorNombre").dataset.seleccionado = "peliculas";
@@ -80,6 +82,7 @@ document.querySelector("#peliculaslor").addEventListener("click", (e) => {
 document.querySelector("#personajes").addEventListener("click", (e) => {
     document.querySelector("#cargando").classList.remove("d-none");
     obtenerPersonajes();
+    
     ocultarMenuInicio(1);
     divContenedorPersonajes.classList.remove("d-none");
     document.querySelector("#btnOrdenarPorNombre").dataset.seleccionado = "personajes";

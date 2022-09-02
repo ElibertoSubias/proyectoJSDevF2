@@ -272,7 +272,7 @@ document.querySelector("#buscadorInput").addEventListener("keyup", (e) => {
 window.addEventListener('mouseup',function(event){
     let pol = document.querySelector("#buscador");
     if(event.target.id == "contenedorbuscador" && event.target != pol && event.target.parentNode != pol){
-        this.document.querySelector("#contenedorbuscador").classList.add("d-none");
+        this.document.querySelector("#contenedorbuscador").classList.add("invisible");
         banderaBuscador = !banderaBuscador;
     }
 });
